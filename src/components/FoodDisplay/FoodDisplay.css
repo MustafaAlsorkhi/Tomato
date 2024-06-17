@@ -1,0 +1,33 @@
+.food-display{
+    margin-top:30px ;
+}
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
+  }
+  button {
+    padding: 10px 20px;
+    background-color: tomato; /* Primary color, change as needed */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  button:hover {
+    background-color: rgb(223, 47, 11); /* Darker shade of primary color */
+  }
